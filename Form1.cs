@@ -157,27 +157,6 @@ namespace Графический_редактор
             }
 
         }
-
-        private void pictureBox1_Paint(object sender, PaintEventArgs e)
-        {
-           /* Graphics g = e.Graphics;
-
-            if (paint)
-            {
-                if (index == 1)
-                {
-                    g.DrawEllipse(p, cX, cY, sX, sY);
-                }
-                if (index == 2)
-                {
-                    g.DrawRectangle(p, cX, cY, sX, sY);
-                }
-                if (index == 3)
-                {
-                    g.DrawLine(p, cX, cY, x, y);
-                }
-            }*/
-        }
         private void button8_Click(object sender, EventArgs e)
         {
             index = 2;
